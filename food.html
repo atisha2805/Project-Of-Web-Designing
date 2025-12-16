@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Famous Food - Banaras Tour Guide</title>
+  <style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #f2e8cf;
+}
+#navbar {
+  background-color: #8b0000;
+  height: 30px;
+  color: #fefae0;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+    
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 241, 240);
+  font-size: 15px;
+  margin:40px;
+  padding-top: 15px;
+}
+#navbar a:hover {
+  text-decoration: underline;
+}
+.section {
+  width: 100%;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.section h2 {
+  text-align: center;
+  color: #8b0000;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 5px grey;
+}
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  color: #8b0000;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+}
+/* ---------- Responsive Media Query ---------- */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  #navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #navbar a {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .card p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+
+footer {
+  background: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>
+<div id="navbar">
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/famousPlaces.html">Famous Places</a>
+        <a href="/food.html">Famous Food</a>
+        <a href="/hiddenPlaces.html">Hidden Places</a>
+        <a href="/Guide.html">Book Your Guide</a>
+        <a href="/sign-in.html">Login</a>
+      </nav>
+</div>
+
+<section class="section">
+  <h2>Popular Banarasi Foods</h2>
+
+  <div class="card-container">
+
+    <div class="card">
+      <img src="/kachori-sabji.jpeg" alt="Kachori Sabzi">
+      <h3>KACHORI SABZI</h3>
+      <p>Banaras’s most iconic breakfast, served hot and spicy.
+        You can try this anywhere but make sure you are having it hot only.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="/jalebi.jpeg" alt="Jalebi">
+      <h3>JALEBI</h3>
+      <p>Sweet, crispy jalebis made fresh in desi ghee.
+        Take this as a dessert of Kachori Sabji.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="/paan.jpeg" alt="Banarasi Paan">
+      <h3>BANARASI PAAN</h3>
+      <p>World-famous paan known for its fragrance & flavor.
+        A One-time experience but a must try.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="/tamatar chaat.jpeg" alt="Tamatar Chaat">
+      <h3>TAMATAR CHAAT</h3>
+      <p>A spicy & tangy Varanasi special chaat made with tomatoes.
+        Famous of Kashi Chaat Bhandaar at Godowliya.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="/Tikki Chaat.jpeg" alt="Aloo Tikki Chaat">
+      <h3>ALOO TIKKI CHAAT</h3>
+      <p>Drinking tea in Banaras is more than just a beverage; 
+        it's a cultural experience, often enjoyed from street vendors in 
+        narrow alleys.
+      </p>
+    </div>
+    
+    <div class="card">
+      <img src="/chhoti kachori.jpg" alt="Chhoti Kachori">
+      <h3>CHHOTI KACHORI</h3>
+      <p>Spicy and tasty as Kachori Sabji.
+        You can find this in streets of Kal Bhairav Mandir.
+      </p>
+    </div>
+    
+    <div class="card">
+      <img src="/chai.jpg" alt="Chowk ki chai">
+      <h3>CHAI(TEA)</h3>
+      <p>Mostly known as <b>Chowk ki chai</b> and found at chowk.
+        Drinking tea in Banaras is more than just a beverage;
+         it's a cultural experience, often enjoyed from street vendors in narrow alleys.
+      </p>
+    </div>
+    
+    <div class="card">
+      <img src="/lassi.jpeg" alt="Lassi">
+      <h3>BANARASI LASSI</h3>
+      <p>Thick creamy lassi served in clay cups (kulhad).
+        Famous of Pahalwan Lassi at Lanka.
+      </p>
+    </div>
+    
+    <div class="card">
+      <img src="/vt coffee.jpg" alt="Cold coffee">
+      <h3>COLD COFFEE</h3>
+      <p>Very Famous as <b>VT ki Coffee</b>(VT stands for Vishwanath Temple).
+        You can enjoy inside BHU outside Vishwanath Temple.
+      </p>
+    </div>
+
+    <div class="card">
+      <img src="/Malaiyo.jpeg" alt="Malaiyo">
+      <h3>MALAIYO</h3>
+      <p>light, airy, and sweet, making it a must-try delicacy in the cold season.
+        Famous of Shree Ji. </p>
+    </div>
+    
+    <div class="card">
+      <img src="/Makkhan Bread.jpeg" alt="Makkhan Bread">
+      <h3>MAKKHAN TOAST</h3>
+      <p>a famous street food breakfast in Banaras.
+        You can enjoy it with your Tea at Chowk.</p>
+    </div>
+
+    <div class="card">
+      <img src="/Baati Chokha.jpeg" alt="Baati Chokha">
+      <h3>BAATI CHOKA</h3>
+      <p>Baati Chokha is a highly renowned and authentic traditional food item.
+        You can have it Baati Chokha Restaurant at Teliyabaag or its other branches too.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Banaras Tour Guide | Made By Atisha</p>
+</footer>
+
+</body>
+</html>
