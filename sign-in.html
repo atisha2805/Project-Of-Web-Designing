@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page-Banaras Tour Guide</title>
+    <style>
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(/Background\ form.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    
+}
+#navbar {
+    background-color: #8b0000;
+    height: 30px;
+    color: #fefae0;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 241, 240);
+    font-size: 15px;
+    margin:40px;
+    padding-top: 15px;
+}
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.container{
+    height: calc(100vh-40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.login-box{
+    border: 2px solid #8b0000;
+    background-color: #8b0000;
+    color: #f4f0bb;
+    width: 350px;
+    padding: 40px;
+    border-radius: 10px;
+}
+.login-box h2 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+.input-box{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.input-box input{
+    border: none;
+    border-bottom: 2px dotted #f0e9e5;
+    color: white;
+    margin-left: 10px;
+    background: none;
+}
+button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    margin-left: 30px;
+    background: #f4f0bb;
+    color: #540b0e;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #99582a;
+    color: #ffe6a7;
+}
+
+@media (max-width: 768px) {
+
+  #navbar {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #navbar a {
+    margin: 6px 0;
+    font-size: 16px;
+  }
+
+  .container {
+    margin-top: 40px;
+    padding: 10px;
+  }
+
+  .login-box {
+    width: 90%;
+    padding: 25px;
+  }
+
+  .login-box h2 {
+    font-size: 22px;
+  }
+
+  .input-box {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .input-box input {
+    width: 90%;
+    margin: 8px 0;
+  }
+
+  button {
+    width: 100%;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+
+.footer {
+  background: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 80px;
+  margin-bottom: 0;
+}
+    </style>
+</head>
+<body>
+    <div id="navbar">
+      <nav>
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/famousPlaces.html">Famous Places</a>
+        <a href="/food.html">Famous Food</a>
+        <a href="/hiddenPlaces.html">Hidden Places</a>
+        <a href="/Guide.html">Book Your Guide</a>
+        <a href="/sign-in.html">Login</a>
+      </nav>
+    </div>
+<div class="container">
+    <div class="login-box">
+        <h2>Sign In</h2>
+        <form>
+            <div class="input-box">
+                <label>Email:</label>
+                <input type="text" placeholder="Example@abc.com" required>
+            </div>
+            <div class="input-box">
+                <label>Password:</label>
+                <input type="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+
+    </div>
+</div>
+<div class="footer">
+<footer>
+  <p>&copy; 2025 Banaras Tour Guide | Made By Atisha</p>
+</footer>
+</div>
+
+</body>
+</html>
